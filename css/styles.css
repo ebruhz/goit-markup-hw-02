@@ -1,24 +1,54 @@
 body {
-   font-family: 'Roboto',sans-serif;
-   color: #434455
-   line-height: 1.5;
-  
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  line-height: 1.5;
+  width: 1440px;
+  height: 600px;
+  list-style: none;
+  margin: 0;
+}
+.head {
+  font-size: 56px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  background-color: #2e2f42;
+  color: white;
+  height: ;
 }
 
-h1{
-   font-weight: bold;
+
+.header-link:hover,
+.header-link:focus,
+.button:hover,
+.button:focus{
+  background-color: #404BBF;
+  color:white;
+
 }
 
-h2{
-   font-weight: bold;
+.button {
+  background-color: #4d5ae5;
+  color: white;
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-button{
-   cursor: pointer;
+
+.team-one {
+  background-color: #F4F4FD;
 }
 
-.logo:hover,
-.logo:focus-visible{
-   background-color: #4d5ae5;
+.ending {
+  background-color: #434455;
+  color: white;
+}
 
+.ending a{
+  color: white;
 }
